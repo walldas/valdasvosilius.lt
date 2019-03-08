@@ -1,0 +1,19 @@
+
+#matrix{
+  padding: 0 5px;
+  text-align: center;
+  color:rgb(100,100,255);
+  font-family: 'Play', sans-serif;
+  background-color: black;
+}
+.white1{
+  text-shadow: 0px 0px 3px white;
+  color:rgb(180,180,255);
+}
+
+.matrix table tr{
+  /*padding: 50px 0px;*/
+  /*margin:  50px 0px;*/
+  
+}
+

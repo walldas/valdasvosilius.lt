@@ -42,7 +42,7 @@
         <div class="container">
             <div class="content">
                 <div class="title">Valdas Vosilius</div>
-                      <h3>jau geritai</h3>
+                      <h3>jau greitai</h3>
             </div>
         </div>
     </body>

@@ -1,0 +1,27 @@
+.magictable{
+  margin:0 auto;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+.staciakampis table tr td{
+  border:1px black solid;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.magicbtn{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: green;
+  color:black;
+  display:inline-block;
+}
+.staciakampis a{
+  color:black;
+}
+.magicdiv{
+  text-align: center;
+}
+.magicbtn:hover{
+  color:white;
+}

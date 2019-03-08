@@ -1,0 +1,185 @@
+.hbar {
+  width: 100%;
+  height: 10px;
+  background: #c7c7c7;
+  border-radius: 10px;
+  float: left;
+  overflow: hidden;
+  display: block;
+
+}
+
+.hbar10 {
+  float: left;
+  width: 0%;
+  height: 10px;
+  background: #6cc200;
+  z-index: 333;
+  transition:2s;
+  animation: glow10 1.1s ease-in-out infinite;
+
+}
+.hbar9 {
+  float: left;
+  width: 0%;
+  height: 10px;
+  background: #8fc600;
+  z-index: 333;
+  transition:1.9s;
+  animation: glow9 1.2s ease-in-out infinite;
+}
+.hbar8 {
+  float: left;
+  width: 0%;
+  height: 10px;
+  background: #b2ca00;
+  z-index: 333;
+  transition:1.8s;
+  animation: glow8 1.3s ease-in-out infinite;
+}
+.hbar7 {
+  float: left;
+  width: 0%;
+  height: 10px;
+  background: #cec500;
+  z-index: 333;
+  transition:1.7s;
+  animation: glow7 1.4s ease-in-out infinite;
+}
+.hbar6 {
+  float: left;
+  width: 0%;
+  height: 10px;
+  background: #d2a600;
+  z-index: 333;
+  transition:1.6s;
+  animation: glow6 1.5s ease-in-out infinite;
+}
+.hbar5 {
+  float: left;
+  width: 0%;
+  height: 10px;
+  background: #d58700;
+  z-index: 333;
+  transition:1.5s;
+  animation: glow5 1.6s ease-in-out infinite;
+}
+.hbar4 {
+  float: left;
+  width: 0%;
+  height: 10px;
+  background: #d96600;
+  z-index: 333;
+  transition:1.4s;
+  animation: glow4 1.7s ease-in-out infinite;
+}
+.hbar3 {
+  float: left;
+  width: 0%;
+  height: 10px;
+  background: #dd4400;
+  z-index: 333;
+  transition:1.3s;
+  animation: glow3 1.8s ease-in-out infinite;
+}
+.hbar2 {
+  float: left;
+  width: 0%;
+  height: 10px;
+  background: #e12100;
+  z-index: 333;
+  transition:1.2s;
+  animation: glow2 1.9s ease-in-out infinite;
+}
+.hbar1 {
+  float: left;
+  width: 0%;
+  height: 10px;
+  background: #e50002;
+  z-index: 333;
+  transition:1.1s;
+  animation: glow1 2s ease-in-out infinite;
+}
+
+.invers:hover .hbar10{
+  width: 100%;
+  box-shadow: 0px 0px 20px 25px rgba(108,194,0,1);
+}
+.invers:hover .hbar9{
+  width: 90%;
+  box-shadow: 0px 0px 20px 25px rgba(143,198,0,1);
+}
+.invers:hover .hbar8{
+  width: 80%;
+  box-shadow: 0px 0px 20px 25px rgba(178,202,0,1);
+}
+.invers:hover .hbar7{
+  width: 70%;
+  box-shadow: 0px 0px 20px 25px rgba(206,197,0,1);
+}
+.invers:hover .hbar6{
+  width: 60%;
+  box-shadow: 0px 0px 20px 25px rgba(210,166,0,1);
+}
+.invers:hover .hbar5{
+  width: 50%;
+  box-shadow:  0px 0px 20px 25px rgba(213,135,0,1);
+
+}
+
+.invers:hover .hbar4{
+  width: 40%;
+  box-shadow: 0px 0px 20px 25px rgba(217,102,0,1);
+}
+.invers:hover .hbar3{
+  width: 30%;
+  box-shadow: 0px 0px 20px 25px rgba(221,68,0,1);
+}
+.invers:hover .hbar2{
+  width: 20%;
+  box-shadow: 0px 0px 20px 25px rgba(225,33,0,1);
+}
+.invers:hover .hbar1{
+  width: 10%;
+  box-shadow: 0px 0px 20px 25px rgba(229,0,2,1);
+}
+@-webkit-keyframes glow10
+{
+  50% { box-shadow: 0 0 20px 15px #6cc200; }
+}
+@-webkit-keyframes glow9
+{
+  50% { box-shadow: 0 0 20px 15px #8fc600; }
+}
+@-webkit-keyframes glow8
+{
+  50% { box-shadow: 0 0 20px 15px #b2ca00; }
+}
+@-webkit-keyframes glow7
+{
+  50% { box-shadow: 0 0 20px 15px #cec500; }
+}
+@-webkit-keyframes glow6
+{
+  50% { box-shadow: 0 0 20px 15px #d2a600; }
+}
+@-webkit-keyframes glow5
+{
+  50% { box-shadow: 0 0 20px 15px #d58700; }
+}
+@-webkit-keyframes glow4
+{
+  50% { box-shadow: 0 0 20px 15px #d96600; }
+}
+@-webkit-keyframes glow3
+{
+  50% { box-shadow: 0 0 20px 15px #dd4400; }
+}
+@-webkit-keyframes glow2
+{
+  50% { box-shadow: 0 0 20px 15px #e12100; }
+}
+@-webkit-keyframes glow1
+{
+  50% { box-shadow: 0 0 20px 15px #e50002; }
+}

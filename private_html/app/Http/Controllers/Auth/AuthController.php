@@ -42,9 +42,14 @@ class AuthController extends Controller
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => 'required|max:255',
-            'email' => 'required|email|max:255|unique:users',
-            'password' => 'required|confirmed|min:6',
+          'name' => 'required|max:255',
+          'surename' => 'required|max:255',
+          'city' => 'required|max:255',
+          'company' => 'max:255',
+          'address' => 'required|max:255',
+          'phone' => 'required|numeric',
+          'email' => 'required|email|max:255|unique:users',
+          'password' => 'required|min:6|confirmed',
         ]);
     }
 
@@ -57,9 +62,19 @@ class AuthController extends Controller
     protected function create(array $data)
     {
         return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
+          'name' => $data['name'],
+          'surename' => $data['surename'],
+          'company' => $data['company'],
+          'phone' => $data['phone'],
+          'address' => $data['address'],
+          'city' => $data['city'],
+          'email' => $data['email'],
+          'password' => bcrypt($data['password']),
         ]);
+    }
+    public function showRegistrationForm(){
+
+        $title = 'Registracija';
+      return view('auth.register', compact('title'));
     }
 }

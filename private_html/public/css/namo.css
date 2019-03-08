@@ -1,0 +1,33 @@
+body{
+  background-color: white;
+}
+.busStop{
+  width: 100%;
+  height: 400px;
+}
+.busPo{
+  margin-top: 80px;
+  font-size: 30px;
+  background-color: rgba(255,110,0,0.7);
+
+}
+.bus h3{
+  position: absolute;
+  text-align: center;
+  color:white;
+  background-color: rgba(255,110,0,0.7);
+  padding:20px;
+  font-family: 'Racing Sans One', cursive;
+
+}
+#dabarYra{
+  font-family: 'Racing Sans One';
+  /*background: rgba(255,110,0,0.7);*/
+  padding:0px 10px;
+  color:white;
+  font-size: 50px;
+}
+.autobusuUzduotis{
+  background-color: rgba(155,155,177,0.2);
+  padding:0 15px;
+}
